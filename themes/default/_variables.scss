@@ -53,7 +53,7 @@ $color-white: #fff !default;
 $color-black: #000 !default;
 
 // $default-bg-color: $color-white !default;
-$default-bg-color: $color-secondary !default;
+$default-bg-color: $color-secondary-dark !default;
 
 // Element colors
 //
@@ -656,7 +656,8 @@ $message-input-content-editor-container-line-height: 1.35em !default;
 // Colors
 $message-list-color: $color-text !default;
 $message-list-bg-color: $default-bg-color !default;
-$message-list-typing-indicator-bg-color: $color-white !default;
+// $message-list-typing-indicator-bg-color: $color-white !default;
+$message-list-typing-indicator-bg-color: $color-secondary !default;
 $message-list-loading-more-bg-color: $color-white !default;
 
 // Sizes
