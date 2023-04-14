@@ -657,7 +657,7 @@ $message-input-content-editor-container-line-height: 1.35em !default;
 $message-list-color: $color-text !default;
 $message-list-bg-color: $default-bg-color !default;
 // $message-list-typing-indicator-bg-color: $color-white !default;
-$message-list-typing-indicator-bg-color: $color-secondary !default;
+$message-list-typing-indicator-bg-color: $color-secondary-dark !default;
 $message-list-loading-more-bg-color: $color-white !default;
 
 // Sizes
@@ -792,7 +792,8 @@ $status-list-item-active-bg-color: $color-bg-active !default;
 //
 
 // Colors
-$typing-indicator-text-color: $color-primary-dark !default;
+// $typing-indicator-text-color: $color-primary-light !default;
+$typing-indicator-text-color: $color-text-medium !default;
 $typing-indicator-text-bg-color: transparent !default;
 
 $typing-indicator-indicator-bg-color: transparent !default;
