@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-          scope: '@chatscope'
+          scope: '@arunabhdas'
       - name: Install dependencies
         run: yarn
       - name: Build
@@ -26,8 +26,8 @@ jobs:
           GITHUB_TOKEN: ${{secrets.RELEASE_TOKEN}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-          GIT_AUTHOR_NAME: supersnager
+          GIT_AUTHOR_NAME: arunabhdas
           GIT_AUTHOR_EMAIL: ${{secrets.GIT_AUTHOR_EMAIL}}
-          GIT_COMMITTER_NAME: supersnager
+          GIT_COMMITTER_NAME: arunabhdas
           GIT_COMMITTER_EMAIL: ${{secrets.GIT_AUTHOR_EMAIL}}
         run: npx semantic-release

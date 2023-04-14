@@ -1,9 +1,9 @@
 {
-  "name": "@chatscope/chat-ui-kit-styles",
-  "version": "1.4.0",
-  "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
+  "name": "@arunabhdas/chat-ui-kit-dark-mode-styles",
+  "version": "1.5.0",
+  "description": "SCSS dark mode themes ",
   "license": "MIT",
-  "homepage": "https://chatscope.io/",
+  "homepage": "https://arunabhdas.com/",
   "keywords": [
     "chat",
     "styles",
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/chatscope/chat-ui-kit-styles.git"
+    "url": "https://github.com/arunabhdas/chat-ui-kit-dark-mode-styles.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -87,7 +87,7 @@
         "@semantic-release/changelog",
         {
           "changelogFile": "CHANGELOG.md",
-          "changelogTitle": "# @chatscope/chat-ui-kit-styles changelog"
+          "changelogTitle": "# @arunabhdas/chat-ui-kit-dark-mode-styles changelog"
         }
       ],
       "@semantic-release/github",

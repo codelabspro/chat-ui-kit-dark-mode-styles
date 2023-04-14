@@ -28,23 +28,23 @@ $default-font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
 // Colors
 //
 
-$color-primary: #c6e3fa !default;
-$color-primary-light: #f6fbff !default;
-$color-primary-dark: #6ea9d7 !default;
-$color-primary-dark: #6EAAD8 !default;
+$color-primary: #574a6b !default;
+$color-primary-light: #434d67 !default;
+$color-primary-dark: #422347 !default;
+$color-primary-dark: #1c0920 !default;
 
-$color-secondary: #91ECEC !default;
-$color-secondary-light: #C2F9F9 !default;
-$color-secondary-dark: #64D3D3 !default;
+$color-secondary: #334155 !default;
+$color-secondary-light: #64748b !default;
+$color-secondary-dark: #1e293b !default;
 
 // Material text colors
 // http://marcodiiga.github.io/rgba-to-rgb-conversion
-// Hex values are calculated based on white background 
+// Hex values are calculated based on white background
 // If you change background color rgb color will change, that is why its better to use rgba with opacity!
-$color-text: rgba(0, 0, 0, .87) !default; // #212121
-$color-text-medium: rgba(0, 0, 0, .60) !default; // #666666
-$color-text-disabled: rgba(0, 0, 0, .38) !default; // #9e9e9e
-$color-text-inverted: invert($color-text); 
+$color-text: rgba(255, 255, 255, .87) !default; // #212121
+$color-text-medium: rgba(255, 255, 255, .60) !default; // #666666
+$color-text-disabled: rgba(255, 255, 255, .38) !default; // #9e9e9e
+$color-text-inverted: invert($color-text);
 
 // Base colors
 //
@@ -95,7 +95,7 @@ $disabled-opacity: 0.38 !default;
 ///////////////////////////////////////// Components /////////////////////////////////////////
 
 // Avatar
-// 
+//
 
 // Sizes
 $avatar-xs-width: 16px !default;
@@ -105,7 +105,7 @@ $avatar-lg-width: 68px !default;
 $avatar-fluid-width: 100% !default;
 
 // Avatar group
-// 
+//
 
 // Sizes
 $avatar-group-xs-width: 16px !default;
@@ -114,10 +114,10 @@ $avatar-group-md-width: 100% !default;
 $avatar-group-lg-width: 80px !default;
 $avatar-group-fluid-width: 100% !default;
 
-$avatar-group-md-min-width: 40px !default; 
+$avatar-group-md-min-width: 40px !default;
 
 // Buttons
-// 
+//
 // General button element and dedicated (function specific) buttons
 
 // Borders
@@ -140,7 +140,7 @@ $button-disabled-opacity: $disabled-opacity !default;
 $button-margin: 0.1em 0.2em !default;
 $button-padding: 0.2em 0.7em !default;
 
-// Add user button 
+// Add user button
 
 $button-adduser-color: $button-color !default;
 $button-adduser-bg-color: $button-bg-color !default;
@@ -168,7 +168,7 @@ $button-star-bg-color: $button-bg-color !default;
 // Video call button
 
 $button-videocall-color: $button-color !default;
-$button-videocall-bg-color: $button-bg-color !default; 
+$button-videocall-bg-color: $button-bg-color !default;
 
 // Voice call button
 
@@ -194,7 +194,7 @@ $chat-container-message-input-border-right: solid 0px $default-border-color !def
 $chat-container-message-input-border-bottom: solid 0px $default-border-color !default;
 $chat-container-message-input-border-left: solid 0px $default-border-color !default;
 
-// Colors 
+// Colors
 $chat-container-color: $color-text !default;
 $chat-container-bg-color: $default-bg-color !default;
 $chat-container-message-input-color: $color-text !default;
@@ -321,7 +321,7 @@ $expansion-panel-content-bg-color: $default-bg-color !default;
 $expansion-panel-content-open-color: $expansion-panel-content-color !default;
 $expansion-panel-content-open-bg-color: $expansion-panel-content-bg-color !default;
 
-// Fonts 
+// Fonts
 $expansion-panel-font-family: $default-font-family !default;
 $expansion-panel-font-weight: normal !default;
 $expansion-panel-font-size: inherit !default;
@@ -401,7 +401,7 @@ $main-container-sidebar-right-min-width: 150px !default;
 $main-container-sidebar-right-max-width: 320px !default;
 
 // Message
-// 
+//
 
 // Boolean flags
 $show-message-incoming-sender-name: false !default;
@@ -640,7 +640,7 @@ $message-input-padding: 0 !default;
 $message-input-content-editor-wrapper-margin: 0 !default;
 $message-input-content-editor-wrapper-padding: 0.6em 0.9em !default;
 $message-input-content-editor-container-padding-top: 0em !default;     // These variables
-$message-input-content-editor-container-padding-right: 0em !default;   // are used 
+$message-input-content-editor-container-padding-right: 0em !default;   // are used
 $message-input-content-editor-container-padding-bottom: 0em !default;  // for some calculations
 $message-input-content-editor-container-padding-left: 0em !default;    // by _message-input.scss
 $message-input-content-editor-container-padding: $message-input-content-editor-container-padding-top $message-input-content-editor-container-padding-right $message-input-content-editor-container-padding-bottom $message-input-content-editor-container-padding-left !default;
@@ -725,7 +725,7 @@ $sidebar-right-bg-color: $default-bg-color !default;
 $sidebar-left-bg-color: $default-bg-color !default;
 
 // Status
-// 
+//
 
 // Colors
 $status-available-color: #00a27e !default;
@@ -762,7 +762,7 @@ $status-fluid-width: 100% !default;
 $status-name-margin: 0 0 0 0.58em !default;
 
 // Status list
-// 
+//
 
 // Colors
 $status-list-color: $color-text !default;
